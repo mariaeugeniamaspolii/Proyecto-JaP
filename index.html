@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio del Equipo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Logo del equipo">
+            <h1>Proyecto Final Testing - Grupo 6</h1>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Acerca del Equipo</h2>
+        <div class="team-members">
+            <div class="member">
+                <img src="images/fpManuela.jpg" alt="Foto de Manuela Aguiar">
+                <h3>Manuela Aguiar</h3>
+                <p>Language  Specialist, Communication Coordinator</p>
+                <a href="cv-Aguiar.pdf">Ver CV</a>
+                <p>Contacto: <a href="mailto:maguiar.1503@gmail.com">maguiar.1503@gmail.com</a></p>
+            </div>
+            <div class="member">
+                <img src="images/fpMaria.webp" alt="Foto de María Eugenia Máspoli">
+                <h3>María Eugenia Máspoli</h3>
+                <p>Quality Assurance Specialist</p>
+                <a href="cv_MariaEMaspoli_es.pdf">Ver CV</a>
+                <p>Contacto: <a href="mailto:maria.maspoli@outlook.es">maria.maspoli@outlook.es</a></p>
+            </div>
+            <div class="member">
+                <img src="images/fp-Camila.jpg" alt="Foto de Camila Campos">
+                <h3>Camila Campos</h3>
+                <p>Team Manager, Feedback Coordinator</p>
+                <a href="cv-Campos.pdf">Ver CV</a>
+                <p>Contacto: <a href="mailto:cam.sauco04@gmail.com">cam.sauco04@gmail.com</a></p>
+            </div>
+            <div class="member">
+                <img src="images/fpAntoD.jpg" alt="Foto de Antonella De Oscar">
+                <h3>Antonella De Oscar</h3>
+                <p>Technical Advisor</p>
+                <a href="cv-DeOscar.pdf">Ver CV</a>
+                <p>Contacto: <a href="mailto:antonelladeoscar@gmail.com">antonelladeoscar@gmail.com</a></p>
+            </div>
+            <div class="member">
+                <img src="images/fpAntonellaR.jpg" alt="Foto de Antonella Rodríguez">
+                <h3>Antonella Rodríguez</h3>
+                <p>Documentation Lead</p>
+                <a href="cv-Rodriguez.pdf">Ver CV</a>
+                <p>Contacto: <a href="mailto:antorod1102@gmail.com">antorod1102@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyecto">
+        <h2>Etapas del Proyecto</h2>
+        <ul>
+            <li><a href="Etapa1.pdf">Planificación</a></li>
+            <li><a href="Etapa2.pdf">Plan de pruebas</a></li>
+            <li><a href="Etapa3.pdf">Retesting</a></li>
+            <li><a href="Etapa4.pdf">Informe Ejecutivo</a></li>
+            <li><a href="presentacion-etapa4.mp4">Presentación Ejecutiva en Video</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Equipo de Testing</p>
+    </footer>
+</body>
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+</html>
